@@ -137,5 +137,27 @@ a:hover {
 #contact {
     margin: 15px;
 
+}
+
+.lineInput, .textInput {
+    width: 900px;
+    padding: 0px 30px;
+    margin: 0px 30px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.textInput {
+    height: 80px;
+
+}
+
+#submit {
+    background-color: #4aaaa5;
+    margin: 20px 30px 20px 30px;
+
 
 }
