@@ -1,10 +1,17 @@
 html, body {
+    height: 100%;
+
+}
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
     color: #777777;
-    background: url('images/cork-board.png');
-    background-size: cover;
+    background: url('../images/cork-board.png') repeat 0 0;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -26,6 +33,7 @@ header {
     margin: 0 auto;
     border: 1px solid #dddddd;
     background-color: #ffffff;
+    flex: 1 0 auto;
 
 }
 
@@ -34,6 +42,8 @@ footer {
     border-top: 8px solid #4aaaa5;
     margin: 0 auto;
     background-color: #666666;
+    flex-shrink: 0;
+
 
 }
 
@@ -47,7 +57,9 @@ footer {
 #myName {
     float: left;
     background-color: #4aaaa5;
-    margin: 30px;
+    padding: 20px;
+    position: relative;
+    top: -25px;
 
 }
 
@@ -67,7 +79,7 @@ img {
 
 .sectionName {
     margin: 5px 30px;
-
+    color: #4aaaa5
 
 }
 
@@ -83,16 +95,30 @@ img {
 
 }
 
-#contactList {
-    font-size: 15px;
-
-}
-
 .links {
     float: left;
     margin: 5px 40px 5px 5px;
+    font-size: 15px;
 
 
+}
 
+a:link {
+    color: darkgray;
 
+}
+
+a:visited {
+    color: darkgray;
+    
+}
+
+a:active {
+    color: darkgray;
+    
+}
+
+a:hover {
+    color: lightblue;
+    
 }
