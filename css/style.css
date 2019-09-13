@@ -38,11 +38,11 @@ header {
 
 #container {
     width: 960px;
-    margin: 0 auto;
+    margin: 30px auto 0px auto;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     flex: 0 0 auto;
-    margin-top: 30px;
+    
     
 }
 
