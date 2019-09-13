@@ -13,7 +13,10 @@ document.getElementById('submit').onclick = function (){
 
 }
 
-document.getElementsByClassName('projectDiv').onclick = function () {
-    alert('Coming Soon!');
-}
+function (a) {
+    document.getElementsById('a').onclick = function () {
+        alert('Coming Soon!');
+};
+
+function (rps);
 
