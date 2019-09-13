@@ -9,74 +9,97 @@
 
         <link type='text/css' rel='stylesheet' href='css/style.css' />
 
-
     </head>
 
     <body>
 
         <Header id='topBar'>
-            <h1 id='myName'>David McCulloch</h1>
 
-            <Nav>
-                <p class='navBar'><a href='contact.html'>Contact</a></p>
-            </Nav>
+            <div id='headerWrap'>
 
-            <Nav>
-                <p class='navBar'><a href='portfolio.html'>Portfolio</a></p>
-            </Nav>
+                <h3 id='myName'>David McCulloch</h3>
 
-            <Nav>
-                <p class='navBar'><a href='index.html'>About</a></p>
-            </Nav>
+                <Nav>
+                    <p class='navBar'><a href='contact.html'>Contact</a></p>
+                </Nav>
 
+                <Nav>
+                    <p class='navBar' class='navRight'><a href='portfolio.html'>Portfolio</a></p>
+                </Nav>
+
+                <Nav>
+                    <p class='navBar' class='navRight'><a href='index.html'>About</a></p>
+                </Nav>
+            
+            </div>
 
         </Header>
 
-        <Section id='container'>
+        <div id='bodyWrap'>
 
-            <div class='sectionName'>
-                <h3>Portfolio</h3>
-            </div>
+            <Section id='container'>
 
-            <hr />
-
-            <!--Wrap the divs in anchor tags once I have the links-->
-            <div id='hangman' class='projectDiv'>
-                <p>Hangman</p>
-            </div>
+                <div class='sectionName'>
+                    <h3>Portfolio</h3>
+                </div>
             
-            <div id='rpgGame' class='projectDiv'>
-                <p>RPG Game</p>
-            </div>
-
-            <div id='triviaGame' class='projectDiv'>
-                <p>Trivia Game</p>
-            </div>
-           
-            <div id='infoWidget' class='projectDiv'>
-                <p>Rutgers Info Widget</p>
-            </div>
+                <hr />
+                
+                <!--Wrap the divs in anchor tags once I have the links-->
+                
+                <div class='projectWrapper'>
+                    <div id='hangman' class='projectDiv'>
+                        <p>Hangman</p>
+                    </div>
+                </div>
+                
+                <div class='projectWrapper'>
+                    <div id='rpgGame' class='projectDiv'>
+                        <p>RPG Game</p>
+                    </div>
+                </div>
             
-            <div id='rps' class='projectDiv'>
-                <p>Rock Paper Scissors</p>
-            </div>
-           
-        </Section>
+                <div class='projectWrapper'>
+                    <div id='triviaGame' class='projectDiv'>
+                        <p>Trivia Game</p>
+                    </div>
+                </div>
+
+                <div class='projectWrapper'>        
+                    <div id='infoWidget' class='projectDiv'>
+                        <p>Rutgers Info Widget</p>
+                    </div>
+                </div>
+
+                <div class='projectWrapper'>            
+                    <div id='rps' class='projectDiv'>
+                        <p>Rock Paper Scissors</p>
+                    </div>
+                </div>
+
+            </Section>
+
+        </div>
 
         <footer> 
 
-            <h4 id='contact'>Contact Info:</h4>
+            <div id='footerWrap'>
 
-            <ul>
-                <li class='links'><span class='bold'>Email: </span><a href='mailto:dmcculloch86@gmail.com'>DMcCulloch86@gmail.com</a></li>
-                <li class='links' class='lBorder'><span class='bold'>Github: </span><a href='https://github.com/DMcCulloch-Coder'
-                        target="_blank">DMcCulloch-Coder</a></li>
-                <li class='links' class='lBorder'><span class='bold'>Twitter: </strong><a href='https://twitter.com/DM_Coder'
-                        target="_blank">@DM_Coder</a></li>
+                <a href='https://github.com/DMcCulloch-Coder' target='_blank'>
+                    <img class='socialLink' src='images/github-white.png' alt='github link' /></a>
                 
-            </ul>
+                <a href='https://twitter.com/DM_Coder' target='_blank'>
+                    <img class='socialLink' src='images/twitter-circle.png' height='32px' alt='twitter link' /></a>
 
-            <p id='copyright'>Copyright ©</p>
+                <a href='mailto:DMcCulloch86@gmail.com'>
+                    <img class='socialLink' src='images/iconfinder_gmail_132837.png' alt='gmail link' height='32px' /></a>
+                
+                <a href='https://www.linkedin.com/in/david-mcculloch-29a196190/' target='_blank'>
+                    <img class='socialLink' src='images/LI-In-Bug.png' alt='linkedin link' height='32px' /></a>
+
+                <p id='copyright'>Copyright ©</p>
+
+            </div>
 
         </footer>
 
@@ -85,4 +108,6 @@
     </body>
 
 
-</html>0
+</html>
+
+

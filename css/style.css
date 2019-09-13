@@ -27,8 +27,6 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
     
-
-
 }
 
 #headerWrap {
@@ -46,7 +44,6 @@ header {
     flex: 0 0 auto;
     margin-top: 30px;
     
-
 }
 
 #bodyWrap {
@@ -58,13 +55,11 @@ footer {
     background-color: #666666;
     flex-shrink: 0;
 
-
 }
 
 #footerWrap {
     width: 960px;
     margin: 0 auto;
-    
 
 }
 
@@ -89,7 +84,6 @@ img {
     float: left;
     margin: 30px 30px 20px 30px;
     
-    
 }
 
 .sectionName {
@@ -109,14 +103,12 @@ img {
 .bold {
     font-weight: bold;
 
-
 }
 
 .links {
     float: left;
     margin: 5px 40px 5px 5px;
     font-size: 15px;
-
 
 }
 
@@ -141,7 +133,6 @@ a:active {
 a:hover {
     color: lightblue;
 
-    
 }
 
 .lBorder { 
@@ -174,7 +165,6 @@ a:hover {
     background-color: #4aaaa5;
     margin: 20px 30px 20px 30px;
 
-
 }
 
 #submitButton {
@@ -186,7 +176,6 @@ a:hover {
 .socialLink {
     margin: 30px 0px 30px 30px;
 
-
 }
 
 hr {
@@ -194,12 +183,10 @@ hr {
     text-align: center;
     color: #777777;
 
-
 }
 
 #profilePic {
     height: 200px;
-
 
 }
 
@@ -215,6 +202,35 @@ hr {
 
 .text {
     margin: 30px;
+
+}
+
+.labels {
+    margin: 15px 30px;
+
+}
+
+.projectWrapper {
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-image:
+    
+    
+
+}
+
+.projectDiv {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    background-color: #4aaaa5;
+    opacity: 0.8;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+
 
 
 }
