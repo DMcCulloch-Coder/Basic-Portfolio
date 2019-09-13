@@ -11,7 +11,9 @@ document.getElementById('submit').onclick = function (){
 
     //find a way to export this data
 
-
 }
 
+document.getElementsByClassName('projectDiv').onclick = function () {
+    alert('Coming Soon!');
+}
 
