@@ -17,7 +17,7 @@ body {
 
 p {
     margin: 0;
-    padding: 30px;
+    padding: 0;
 
 }
 
@@ -27,15 +27,14 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width: 100%;
     
-    height: 80px;
-    
+
 
 }
 
 #headerWrap {
     width: 960px;
-    margin: 0 auto; 
-    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px; 
 
 }
 
@@ -44,8 +43,14 @@ header {
     margin: 0 auto;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
+    margin-top: 30px;
+    
 
+}
+
+#bodyWrap {
+    flex: 1 0 auto;
 }
 
 footer {
@@ -59,7 +64,7 @@ footer {
 #footerWrap {
     width: 960px;
     margin: 0 auto;
-    flex-shrink: 0;
+    
 
 }
 
@@ -67,24 +72,23 @@ footer {
 #myName {
     float: left;
     background-color: #4aaaa5;
+    color: #ffffff;
     padding: 20px;
-    display: flex;
-    align-items: flex-end;
+    font-size: 130%;
+    margin: 0;
 
 }
 
 .navBar {
     float: right;
-    margin: 30px;
-    position: relative;
-    top: -20px;
-    
+    margin: 20px;
 
 }
 
 img {
     float: left;
     margin: 30px 30px 20px 30px;
+    
     
 }
 
@@ -98,6 +102,7 @@ img {
 #copyright {
     float: right;
     opacity: 0.8;
+    margin: 30px;
 
 }
 
@@ -184,6 +189,32 @@ a:hover {
 
 }
 
+hr {
+    width: 900px;
+    text-align: center;
+    color: #777777;
 
 
+}
 
+#profilePic {
+    height: 200px;
+
+
+}
+
+.navRight {
+    border-left: 1px solid #777777;
+
+    /*Cannot get the dividers to show!!!
+    Not sure what I'm doing wrong.  This has worked in the past.
+    It must be one of the interactions with another header element.
+    investigate each element.*/
+
+}
+
+.text {
+    margin: 30px;
+
+
+}
