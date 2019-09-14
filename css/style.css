@@ -76,7 +76,14 @@ footer {
 
 .navBar {
     float: right;
-    margin: 20px;
+    margin: 20px 0px;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.navRight {
+    border-left: 1px solid #777777;
+
 
 }
 
@@ -135,11 +142,6 @@ a:hover {
 
 }
 
-.lBorder { 
-    border-left: 13px solid darkgray;
-    /*Not showing up for some reason, please fix*/
-}
-
 #contact {
     margin: 15px;
 
@@ -169,7 +171,13 @@ a:hover {
 
 #submitButton {
     font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    color: #555555;
+    color: #ffffff;
+
+}
+
+#submitButton:hover {
+    color: #666666;
+
 
 }
 
@@ -181,22 +189,12 @@ a:hover {
 hr {
     width: 900px;
     text-align: center;
-    color: #777777;
+    color: #bbbbbb;
 
 }
 
 #profilePic {
     height: 200px;
-
-}
-
-.navRight {
-    border-left: 1px solid #777777;
-
-    /*Cannot get the dividers to show!!!
-    Not sure what I'm doing wrong.  This has worked in the past.
-    It must be one of the interactions with another header element.
-    investigate each element.*/
 
 }
 
@@ -212,8 +210,8 @@ hr {
 
 .projectWrapper {
     margin: 30px;
-    width: 200px;
-    height: 130px;
+    width: 220px;
+    height: 140px;
     float: left;
     
 }
@@ -270,3 +268,4 @@ hr {
     padding: 10px 0px;
 
 }
+

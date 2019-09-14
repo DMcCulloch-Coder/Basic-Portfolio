@@ -1,5 +1,5 @@
 
-document.getElementById('submit').onclick = function (){
+document.getElementById('submitButton').onclick = function (){
    
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
@@ -12,11 +12,4 @@ document.getElementById('submit').onclick = function (){
     //find a way to export this data
 
 }
-
-function (a) {
-    document.getElementsById('a').onclick = function () {
-        alert('Coming Soon!');
-};
-
-function (rps);
 
